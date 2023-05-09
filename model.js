@@ -10,8 +10,8 @@ const Book = sequelize.define('book', {
     title: {
         type: Sequelize.STRING
     },
-    desc: {
-        type: Sequelize.STRING
+    stock: {
+        type: Sequelize.NUMBER
     }
 })
 module.exports = Book
